@@ -2,6 +2,8 @@
 
 Welcome to the **Electric Vehicle (EV) Projects Directory**! This repository contains various interactive data visualizations and dashboards that explore trends in the electric vehicle industry. Each project is designed to provide valuable insights into different aspects of EV data, from charging station distribution to registration trends and sales performance across the United States.
 
+**[check live results](https://widchy95.github.io/Electric-Vehicule-Analysis-2013-2024/)**
+
 Feel free to explore each project by clicking the links below!
 
 ## Project Directory 📂
