@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Registration Choropleth Map</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="controls">
+        <!-- Vehicle type select field -->
+        <label for="vehicleTypeSelect">Select Vehicle Type:</label>
+        <select id="vehicleTypeSelect"></select>
+    
+        <!-- Year select field -->
+        <label for="yearSelect">Select Year:</label>
+        <select id="yearSelect"></select>
+    </div>
+    
+    <div id="legend"></div>
+
+    
+
+    <script src="data.js"></script>
+    <script src="logic.js"></script>
+</body>
+</html>
